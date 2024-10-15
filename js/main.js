@@ -718,13 +718,13 @@
     var mapOptions = {
       // How zoomed in you want the map to start at (always required)
 
-      zoom: 11,
+      zoom: 14,
 
       scrollwheel: false,
 
       // The latitude and longitude to center the map (always required)
 
-      center: new google.maps.LatLng(40.67, -73.94), // New York
+      center: new google.maps.LatLng(15.972436936151984, 108.24978711117228), // New York
 
       // This is where you would paste any style found on Snazzy Maps.
 
@@ -756,7 +756,7 @@
     // Let's also add a marker while we're at it
 
     var marker = new google.maps.Marker({
-      position: new google.maps.LatLng(40.67, -73.94),
+      position: new google.maps.LatLng(15.972436936151984, 108.24978711117228),
 
       map: map,
 
